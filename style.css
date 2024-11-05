@@ -1,0 +1,368 @@
+* {
+    font-family: sans-serif, Fira Sans,Courier New;
+    scroll-behavior: smooth;
+    color:white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2vw;
+    background-color:black;
+}
+::-webkit-scrollbar{
+    width:8px;
+    background-color:black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+header {
+}
+
+.Navigation {
+    text-align: center;
+    color: wheat;
+}
+
+    .Navigation > ul {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 100%;
+        transform: translate(0,100%);
+    }
+
+        .Navigation > ul > li {
+            display: inline-block;
+        }
+
+        .Navigation > ul > li:not(:first-of-type) {
+            margin-left: 2%;
+        }
+
+            .Navigation > ul > li > a {
+                text-decoration: none;
+            }
+
+                .Navigation > ul > li > a:link {
+                    color: wheat;
+                }
+
+                .Navigation > ul > li > a:visited {
+                    color: wheat;
+                }
+
+.Splash {
+    text-align: center;
+    background-color: black;
+}
+
+    .Splash > img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Splash > div {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        transform: translate(0,-100%);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 22%);
+    }
+
+.Article {
+}
+
+.Trailer {
+    text-align: center;
+    margin: 10vw;
+}
+
+    .Trailer > section {
+        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 73%);
+        height: 27vw;
+    }
+
+        .Trailer > section > iframe {
+            background-color: black;
+            width: 48vw;
+            height: 27vw;
+        }
+
+.Plot {
+    /*text-align: center;*/
+    margin: 10vw;
+}
+
+    .Plot > h1 {
+        text-align: center;
+    }
+
+    .Plot > section:not(:last-child) {
+        margin-bottom: 5vw;
+    }
+
+    .Plot > section > div > * {
+        display: inline;
+    }
+
+    .Plot > section > div {
+        /*background-color: black;*/
+        /*color: white;*/
+        width: 80vw;
+    }
+
+        .Plot > section > div > div {
+            margin-left: 2vw;
+            width: 40vw;
+            vertical-align: top;
+            float: right;
+            margin: 1vw;
+            text-align: justify;
+        }
+
+    .Plot > section:nth-child(3) > div {
+        /*background-color: white;*/
+        /*color: black;*/
+    }
+
+    .Plot > section > div > img {
+        max-height: 20vw;
+    }
+
+
+
+.Returner {
+    width: 4vw;
+    height: 4vw;
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    margin: 2vw;
+    opacity: 0.8;
+    color: wheat;
+    border-radius: 2vw;
+    z-index:100;
+}
+
+    .Returner > a {
+        margin: auto;
+        font-size: 250%;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+    }
+    .Returner > a:link {
+        color:wheat;
+    }
+    .Returner > a:visited {
+        color: wheat;
+    }
+    .Returner > a > div{
+        /*transform:translate(1vw,0)*/
+    }/*
+.Navigation: > .Returner {
+    opacity: 0;
+}*/
+
+.Actors > div {
+    margin: 10vw;
+    height: 25vw;
+    overflow: auto;
+}
+
+    .Actors > div > section {
+        width: 258vw;
+    }
+
+        .Actors > div > section > div {
+            width: 12vw;
+            height: 23vw;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            .Actors > div > section > div:not(:first-child) {
+                margin-left: 3vw;
+            }
+
+    .Actors > div > h1 {
+        text-align: center;
+    }
+    .Actors > div > section > div > img, .Actors > section > div > span {
+        display: block;
+    }
+    .Actors > div > section > div {
+        text-align: center
+    }
+        .Actors > div > section > div > span:first-of-type {
+            overflow: visible;
+        }
+        .Actors > div > section > div/* > span:last-of-type*/ {
+            font-size: 95%;
+            font-style: italic;
+        }
+            .Actors > div > section > div > img {
+                width: 12vw;
+                height: 18vw;
+                border-radius: 10px;
+            }
+
+.Actors ::-webkit-scrollbar {
+    background-color: black;
+}
+
+.Actors ::-webkit-scrollbar-button {
+    display:none;
+}
+
+.Actors ::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    border-radius:10px;
+}
+
+.ItJustWorks {
+    text-align: center;
+    margin-bottom: -5vw;
+}
+
+.BackInFuture {
+    margin: 10vw;
+    margin-bottom: 0vw;
+}
+.BackInFuture > h1{
+    text-align:center;
+}
+    .BackInFuture > section {
+    }
+    .BackInFuture > section > div > * {
+        display:inline-block;
+    }
+        .BackInFuture > section > div > div {
+            width: 38vw;
+            text-align:justify;
+        }
+        .BackInFuture > section > div > img {
+            width: 20vw;
+            height: 28vw;
+            vertical-align: top;
+        }
+        .BackInFuture > section > div > img:last-of-type {
+            float:right;
+        }
+        .BackInFuture > section > div > div > p {
+            width: 35vw;
+            margin: 0 auto;
+            margin-bottom: 2vw;
+        }
+        /*.BackInFuture > section > div > p {
+            float: right;
+            width: 35vw;
+            vertical-align: top;
+        }
+        .BackInFuture > section > div > img, .BackInFuture > section > div > p {
+            display:inline-block;
+        }
+        .BackInFuture > section > div:nth-child(2) > p {
+            float: left;*/
+            /*margin-right: 3vw;*/
+        /*}
+        .BackInFuture > section > div:nth-child(2) > img {
+            float:right;
+        }
+        .BackInFuture > section > div:not(:nth-child(2)) > img {
+            float: left;
+        }
+        .BackInFuture > section > div:not(:nth-child(2)) > p {
+            margin-right:25vw;
+        }*/
+.Main-footer{
+    background-color:black;
+    color:wheat;
+}
+.Main-footer > span{
+    margin:2vw;
+    font-size:60%;
+}
+
+.RevSection {
+    margin: 10vw;
+}
+
+.RevSection > h1{
+    text-align:center;
+}
+
+.review > div {
+    display:inline-block;
+    vertical-align:central;
+}
+
+.review:not(:last-child){
+    margin-bottom:5vw;
+}
+
+.content {
+    width: 40vw;
+}
+
+.reviewSource, .score {
+    width: 20vw;
+    height: inherit;
+    vertical-align: top;
+}
+.score {
+    width: 10vw;
+}
+    .content {
+/*        border-left: solid 2px black;
+        border-right: solid 2px black;*/
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+        .content > div > a {
+            text-decoration: none;
+            color: orange;
+        }
+            .content > div > a:link {
+                color: orange;
+            }
+.reviewSource{
+    text-align:center;
+}
+    .reviewSource > p:last-of-type {
+        font-size: 95%;
+        font-style: italic;
+    }
+    .reviewSource > img {
+        width: 3vw;
+        height: 3vw;
+    }
+.score > div {
+    /*display:inline-block;*/
+}
+    .score > div:first-of-type {
+        text-align: center;
+        width: 3vw;
+        height: 3vw;
+        border-radius: 0.5vw;
+        margin:0 auto;
+    }
+    .score > div:last-of-type {
+        vertical-align: bottom;
+        text-align:center;
+        margin-top:1vw;
+    }
+        .score > div:first-of-type > div {
+            transform:translate(0,0.85vw);
+            color:black;
+            font-size:130%;
+        }
