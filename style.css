@@ -274,6 +274,21 @@ header {
     opacity: 0;
 }*/
 
+
+@media (min-width: 481px) and (max-width:768px) {
+    .Returner {
+        width: 8vw;
+        height: 8vw;
+    }
+}
+
+@media (max-width: 481px) {
+    .Returner {
+        width: 12vw;
+        height: 12vw;
+    }
+}
+
 .Actors > div {
     margin: 10vw;
     height: 25vw;
