@@ -101,12 +101,17 @@ header {
 
 @media (max-width: 481px) {
     .Splash /*b*/ {
-        overflow:hidden;
+        overflow: hidden;
+        margin-top: 3vw;
     }
 
         .Splash > img {
             transform:scale(1.2) translate(0,5%);
         }
+
+    .Navigation > ul {
+        transform: translate(0,0%);
+    }
 }
 
 .Trailer {
