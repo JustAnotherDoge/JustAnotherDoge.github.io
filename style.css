@@ -102,7 +102,6 @@ header {
 @media (max-width: 481px) {
     .Splash /*b*/ {
         overflow: hidden;
-        margin-top: 3vw;
     }
 
         .Splash > img {
@@ -110,7 +109,7 @@ header {
         }
 
     .Navigation > ul {
-        transform: translate(0,0%);
+        transform: translate(0,60%);
     }
 }
 
