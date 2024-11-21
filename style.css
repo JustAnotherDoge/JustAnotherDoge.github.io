@@ -647,23 +647,25 @@ header {
     }
     .score > div:first-of-type {
         text-align: center;
-        width: 6vw;
-        height: 6vw;
+        width: 9vw;
+        height: 9vw;
         border-radius: 0.5vw;
-        margin: 0;
-        float:right;
+        margin:0 auto;
+        font-size:120%;
+        text-align:center;
     }
     .score > div:last-of-type {
-        text-align: right;
+        margin: 0 auto;
         width: 100%; /*
         vertical-align:central;*/
-        transform: translate(-1vw,1vw);
+        transform: translate(0vw,1vw);
+        font-style: italic;
     }
     .score {
         width: 20vw; /*
         margin-left: 10vw;
         margin-top: 3vw;*/
-        height: 6vw;
+        /*height: 10vw;*/
     }
     .review:not(:last-of-type) {
         margin-bottom:10vw;
