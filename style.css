@@ -13,7 +13,7 @@
 * {
     font-family: sans-serif, Fira Sans,Courier New;
     scroll-behavior: smooth;
-    color: var(--Text);
+    color: light-dark(black, white);
 }
 
 body {
