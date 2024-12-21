@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log();
     }
     debug();
-    document.getElementById('themeChangerButton').addEventListener('click', function() {
+
+    document.getElementById('themeChangerButton').addEventListener('click', function () {
         console.log('click');
         if (document.documentElement.classList == '') {
             document.documentElement.className = 'lightT';
