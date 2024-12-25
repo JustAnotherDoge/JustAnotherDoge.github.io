@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         //document.getElementById('pic1').src = "Korito/" + 3 + ".jpg"
         Disp();
     }
+    
     function RecFormer(val) {
         return "Korito/" + val + ".jpg";
     }
